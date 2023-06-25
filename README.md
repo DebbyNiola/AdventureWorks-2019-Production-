@@ -37,7 +37,8 @@ To guage production performance, KPIs were calculated , by creating measures and
 - **Cycle Time** was calculated with a measure by dividing total resource hours by total quantity produced
 
 ## Modelling
-The tables formed a snowflake schema, as fact table ws connected to dimensions table and there was alo dimension to dimension table relationship.
+The tables formed a snowflake schema, as fact table was connected to dimensions table and there was also dimension to dimension table relationship.
+
 ![](Model_View.jpg)
 
 ## Visualizations and Analysis
@@ -60,7 +61,7 @@ From above, we can see the following
 3. The **due-to-end date** column shows the amount of days between when a product was due and when the product was actually delivered. The negative value shows that the company is lagging behind in meeting up with deadlines.
 4. The most ordered product is still the **BB Ball Bearing**
 5. The **cycle time(hours)** shows that averagely, the company spend 0.05 hours completing a project.
-6. In total, it took them 556 daya to produce over 4 million products.
+6. In total, it took them 556 days to produce over 4 million products.
 7. The table gives more information about the products individually
 - - -
 The third page shows production by work order routing
@@ -68,10 +69,24 @@ The third page shows production by work order routing
 ![](Work_Order_Routing_Page.jpg)
 From here we can see that
 1. From the pie chart, the location with an ID of **50** spends more on production and loction with an ID of **30** spend the least.
-2. THe chart at the bottom left is decomposition tree and itbreaks down production by operation sequence and location ID. from going through it, we found out that a sinle operation sequence is matched to a single location ID.
+2. The chart at the bottom left is decomposition tree and itbreaks down production by operation sequence and location ID. from going through it, we found out that a sinle operation sequence is matched to a single location ID.
 3. The table visual gives more detailed information about the routing of each product.
 - - -
 The final page shows production by date
 
-![](Producton_by_Date.jpg)
+![](Production_by_Date.jpg)
+The following can be seen
+1. The year 2011 had the least production and order quantity though it was for 7 months in the year.
+2.  2012 was the second lowest year in bothh production and orders.
+3.  2013 has the highest values, except for february which recorded no entry.
+4.  overall, production and order follow a similarpattern forr all years.
+5.  Profit shows to be steady through all the years.
 
+## Conclusion
+1. 2013 was their highest year in both orders and production
+2. BB BAll Bearing was the most produced and ordered product
+3. Total Order exceeds total produced quantity
+
+## Recommendations
+1. More efforts should be put in to ensure meeting up with deadlines.
+2. The production team can try making products before they are demanded to avoid demand exceeding supply.
