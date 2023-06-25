@@ -34,4 +34,13 @@ To guage production performance, KPIs were calculated , by creating measures and
 - **First Pass Yield** was calculated with a measure by dividing total good products by total quantity produced,
 -  **Throughput** was calculated with a measure by dividing total quantity produced by total resource hours invested,
 - **Profit** was gottten by subtracting cost price from selling price,
-- **Cycle Time** was calculated with a measure by dividing total resource hours by total quantity produced 
+- **Cycle Time** was calculated with a measure by dividing total resource hours by total quantity produced
+
+## Modelling
+The tables formed a snowflake schema, as fact table ws connected to dimensions table and there was alo dimension to dimension table relationship.
+![](Model_View.jpg)
+
+## Visualizations and Analysis
+The report was spread across four tables, all showing production but by different metrics.
+The first showed production by products
+![](Products_Page.jpg)
