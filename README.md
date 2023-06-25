@@ -45,13 +45,33 @@ The report was spread across four tables, all showing production but by differen
 The first showed production by products
 ![](Products_Page.jpg)
 We can get the following from above
-1. The overall First pass yield at **99.76%** shows that the production process is effective and wasted products are at a minimal.
-2. Approximately **59%** of their product had finished production process, while about **41%** haven't.
-3. The Throughput of the company at approximately **20** shows that the company makes about 20 products per hour. this is becaus production time was measured in hours.
-4. Overall, **BB Ball Bearing** was the most produced item.
+1. The total quantity produced ia approximately **4.5 million**
+2. The overall First pass yield at **99.76%** shows that the production process is effective and wasted products are at a minimal.
+3. Approximately **59%** of their product had finished production process, while about **41%** haven't.
+4. The Throughput of the company at approximately **20** shows that the company makes about 20 products per hour. this is becaus production time was measured in hours.
+5. Overall, **BB Ball Bearing** was the most produced item.
 - - -
 The second paage shows production by workorder
+
 ![](Work_Order_Page.jpg)
 From above, we can see the following
-1. The **Order to Stock quantity** value at **-11k** meaning **-11 Thousand** shows that total production is less than total order by 11 thousand products.
-2. The due-to-end date column shows the amount of days between when a product was due and when the product was actually delivered. The negative value shows that the company is lagging behind in meeting up with deadlines.
+1. The total quantity ordered is approximately **5 million** 
+2. The **Order to Stock quantity** value at **-11k** meaning **-11 Thousand** shows that total quantity produced is less than total quantity ordered by 11 thousand products.
+3. The **due-to-end date** column shows the amount of days between when a product was due and when the product was actually delivered. The negative value shows that the company is lagging behind in meeting up with deadlines.
+4. The most ordered product is still the **BB Ball Bearing**
+5. The **cycle time(hours)** shows that averagely, the company spend 0.05 hours completing a project.
+6. In total, it took them 556 daya to produce over 4 million products.
+7. The table gives more information about the products individually
+- - -
+The third page shows production by work order routing
+
+![](Work_Order_Routing_Page.jpg)
+From here we can see that
+1. From the pie chart, the location with an ID of **50** spends more on production and loction with an ID of **30** spend the least.
+2. THe chart at the bottom left is decomposition tree and itbreaks down production by operation sequence and location ID. from going through it, we found out that a sinle operation sequence is matched to a single location ID.
+3. The table visual gives more detailed information about the routing of each product.
+- - -
+The final page shows production by date
+
+![](Producton_by_Date.jpg)
+
