@@ -1,6 +1,6 @@
 # AdventureWorks 2019 Production Analysis
 
-![](intro_image.jfif)
+![](intro_image.jfif?raw=true)
 _ _ _
 
 ## Introduction
